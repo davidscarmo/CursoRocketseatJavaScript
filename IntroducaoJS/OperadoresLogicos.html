@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JavaScript</title>
+</head>
+<body>
+    
+    <script>
+       var sexo = 'M', idade = 24;
+
+       if(sexo === 'M' && idade >= 18) 
+       {
+           console.log('OK');
+       }
+
+       idade = 10;
+       if(sexo === 'M' || idade >= 18) 
+       {
+           console.log('OK');
+       }
+
+       sexo = 'F'; 
+
+       if(sexo != 'M') 
+       {
+           console.log('OK');
+       }
+
+       var masculino 
+
+       if(sexo === 'M')
+       {
+           masculino = true;
+       }
+       else
+       {
+           masculino = false;
+       }
+
+       console.log(masculino);
+
+       //simplificando o código acima 
+       sexo = 'M';
+       var masculino = sexo === 'M'; 
+
+       console.log(masculino);
+    </script>
+</body>
+</html>

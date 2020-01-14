@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JavaScript</title>
+</head>
+<body>
+    
+    <script>
+        function exibeAlgo()
+        {
+            console.log('Hello World');
+        }
+        function exibeAlgo2()
+        {
+            console.log('Hello World 2');
+        }
+        setInterval(exibeAlgo, 1000); // sem () pois estamos apenas referenciando a função, executa a função de 1 em 1 segundo
+
+        setTimeout(exibeAlgo2, 5000); // executa a função após 5s uma única vez
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JavaScript</title>
+</head>
+<body>
+    
+    <script>
+        function temHabilidade(skills)
+        {
+            var retorno = skills.indexOf("JavaScript"); 
+           
+           retorno = (retorno == 0) ? 'True' : 'False';
+           return console.log(retorno);
+        }   
+
+        var skills = ["JavaScript", "ReactJS", "React Native"];
+
+        temHabilidade(skills); // true ou false
+    </script>
+</body>
+</html>

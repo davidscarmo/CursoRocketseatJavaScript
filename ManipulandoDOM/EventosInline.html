@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JavaScript</title>
+</head>
+<body>
+
+    <div id="app">
+        <button onclick="mostraAlerta0()"> Me pressione</button>
+        <button onmouseover="mostraAlerta1()"> Passe o mouse</button><br>
+        <input type="text" placeholder="Digite algum caracter" onkeypress="mostraAlerta2()">
+    </div>
+
+    <script>
+        function mostraAlerta0() 
+        {
+            alert("Botão foi clicado!");
+        }
+        function mostraAlerta1() 
+        {
+            alert("O mouse passou sobre o botão!");
+        }
+        function mostraAlerta2() 
+        {
+            alert("Uma tecla foi pressionada!");
+        }
+    </script>
+</body>
+</html>
